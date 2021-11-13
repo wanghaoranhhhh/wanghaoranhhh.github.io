@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    body{
+        background-color:#232831 ;
+    }
+    #premise {
+        text-align: center;
+        border: solid white;   /*设置边框样式跟颜色*/
+        border-width: 2px; /*设置边框宽度*/
+        background:#32363d;  /*设置背景色*/
+        font-size:25px;/*设置字体大小*/
+        border-radius: 20px;
+        width: 150px;
+        height: 50px;
+        margin: auto;
+        color: white;
+        line-height: 50px;
+        transform: translateY(15vw);
+    }/*前情提要格式改变*/
+    
+    .story {
+        text-align: left;
+        border: solid white;   /*设置边框样式跟颜色*/
+        border-width: 2px; /*设置边框宽度*/
+        background:#32363d;  /*设置背景色*/
+        font-size:15px;/*设置字体大小*/
+        border-radius: 18px;
+        width: 300px;
+        height: 300px;
+        padding: 8px;
+        margin: auto;
+        color: white;
+        transform: translateY(25vw);
+
+    }/*故事格式改变*/
+    .remind {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        justify-content: center; 
+        transform: translateY(30vw);
+    }/*提示格式改变*/
+    
+
+    .choose {
+        text-align: center;
+        border: solid white;   /*设置边框样式跟颜色*/
+        border-width: 2px; /*设置边框宽度*/
+        background:#32363d;  /*设置背景色*/
+        border-radius: 20px;
+        margin: auto;
+    }/*选择格式改变*/
+    
+    #choose1{
+        color:white;
+        display: flex;
+        justify-content: center; 
+        font-size: 20px;
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+        transform: translateY(28vw);
+    }/*选择1格式改变*/
+    
+    #choose2{
+        color:white;
+        display: flex;
+        justify-content: center; 
+        font-size: 20px;
+        width: 160px;
+        height: 50px;
+        line-height: 50px;
+        transform: translateY(25vw);
+    }/*选择2格式改变*/
+
+    .main a{ 
+    color: white;
+    }/*超链接文字颜色改变*/
+    .main a:hover{ 
+    color:#090
+    }
+    .main a:link,a:visited{
+    text-decoration:none; 
+    } /*超链接无下划线*/
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="premise">
+            前情提要
+        </div>
+        
+        <div class="story">
+            你是在位的英国首相。<br><br>
+            清晨，你接到一个电话，英国公主Susannah被绑架，绑匪的要求是你必须在当天下午四点和一头猪做爱，并现场直播给全世界，否则公主就将被杀害。<br><br>
+            公众也通过媒体很快知晓了这一切。<br><br>
+            而此时，绑匪发来的录像带显示公主的手指已被割去，公众舆论向你跟绑匪就范这一选择倾斜。<br><br>
+            面对这一无端的灾殃，你陷入了沉思......
+        </div>
+    
+        <div id="choose">
+            <p class="remind">
+                请做出你的选择:
+            </p>
+            <a href="首相选择一.html" class="choose" id="choose1">放下尊严，直播与母猪性交</a>
+            <br>
+            <a href="首相选择二.html" class="choose" id="choose2">拒绝向劫匪妥协</a>              
+        </div>
+    
+    </div>
+
+</body>
+</html>
