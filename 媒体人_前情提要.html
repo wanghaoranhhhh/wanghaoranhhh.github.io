@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黑镜重开模拟器</title>
+    <style> 
+    body{
+        background-color:#232831 ;
+    }
+    #premise {
+        text-align: center;
+        border: solid white;   /*设置边框样式跟颜色*/
+        border-width: 2px; /*设置边框宽度*/
+        background:#32363d;  /*设置背景色*/
+        font-size:25px;/*设置字体大小*/
+        border-radius: 20px;
+        width: 150px;
+        height: 50px;
+        margin: auto;
+        color: white;
+        line-height: 50px;
+        transform: translateY(15vw);
+    }/*前情提要格式改变*/
+    
+    .story {
+        text-align: left;
+        border: solid white;   /*设置边框样式跟颜色*/
+        border-width: 2px; /*设置边框宽度*/
+        background:#32363d;  /*设置背景色*/
+        font-size:15px;/*设置字体大小*/
+        border-radius: 18px;
+        width: 300px;
+        height: 300px;
+        padding: 8px;
+        margin: auto;
+        color: white;
+        transform: translateY(25vw);
+
+    }/*故事格式改变*/
+    .remind {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        justify-content: center; 
+        transform: translateY(30vw);
+    }/*提示格式改变*/
+    
+
+    .choose {
+        text-align: center;
+        border: solid white;   /*设置边框样式跟颜色*/
+        border-width: 2px; /*设置边框宽度*/
+        background:#32363d;  /*设置背景色*/
+        border-radius: 20px;
+        margin: auto;
+    }/*选择格式改变*/
+    
+    #choose1{
+        color:white;
+        display: flex;
+        justify-content: center; 
+        font-size: 20px;
+        width: 330px;
+        height: 50px;
+        line-height: 50px;
+        transform: translateY(28vw);
+    }/*选择1格式改变*/
+    
+    #choose2{
+        color:white;
+        display: flex;
+        justify-content: center; 
+        font-size: 20px;
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+        transform: translateY(25vw);
+    }/*选择2格式改变*/
+
+    .main a{ 
+    color: white;
+    }/*超链接文字颜色改变*/
+    .main a:hover{ 
+    color:#090
+    }
+    .main a:link,a:visited{
+    text-decoration:none; 
+    } /*超链接无下划线*/
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="premise">
+            前情提要
+        </div>
+        
+        <div class="story">
+            你是一个小融媒体中心的老板。<br><br>
+            清晨，你得知了一则重磅消息：英国公主Susannah被绑架，绑匪的要求居然是首相必须在当天下午四点和一头猪做爱，并现场直播给全世界，否则公主就将被杀害。<br><br>
+            政府的公关部门很快下令禁止媒体报道，<br><br>
+            在你纠结究竟是否发布这则新闻来获取巨大流量时，你又收到了绑匪提供的一盘录像带和一根断指，<br><br>
+            录像带的内容显示公主的手指被绑匪割去。
+        </div>
+    
+        <div id="choose">
+            <p class="remind">
+                请做出你的选择:
+            </p>
+            <a href="./媒体人_选择一（第一页）.html" class="choose" id="choose1">流量近在眼前，我要把视频发出去</a>
+            <br>
+            <a href="./媒体人_选择二（第一页）.html" class="choose" id="choose2">遵守规定，不将视频发出</a>              
+        </div>
+    
+    </div>
+
+</body>
+</html>

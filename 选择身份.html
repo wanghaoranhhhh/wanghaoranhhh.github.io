@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黑镜重开模拟器</title>
+    <style type="text/css">
+    body{
+        background-color:#232831 ;
+    }
+    .choose {
+        text-align: center;
+        border: solid white;   /*设置边框样式跟颜色*/
+        border-width: 2px; /*设置边框宽度*/
+        background:#32363d;  /*设置背景色*/
+        font-size:15px;/*设置字体大小*/
+        border-radius: 20px;
+        width: 150px;
+        height: 60px;
+        margin: auto;
+    }
+    .choose{
+        line-height: 60px;
+        }
+    .main a{ 
+    color: white;
+    }
+    .main a:hover{ 
+    color:#090
+    }
+    .main a:link,a:visited{
+    text-decoration:none; 
+    } /*超链接无下划线*/
+    .remind {
+        font-size: 25px;
+        color: white;
+        display: flex;
+        justify-content: center; 
+        transform: translateY(10vw);
+    }
+    #choose1{
+        color:white;
+        display: flex;
+        justify-content: center; 
+        font-size: 25px;
+    }
+    #choose2{
+        color:white;
+        display: flex;
+        justify-content: center; 
+        font-size: 25px;
+    }
+    #choose3{
+        color:white;
+        display: flex;
+        justify-content: center; 
+        font-size: 25px;
+    }
+    #choose4{
+        color:white;
+        display: flex;
+        justify-content: center; 
+        font-size: 25px;
+    }
+
+    #choose1{
+            transform: translateY(20vw);
+        }
+    #choose2{
+            transform: translateY(40vw);
+        }
+    #choose3{
+            transform: translateY(60vw);
+        }
+    #choose4{
+            transform: translateY(80vw);
+        }               
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p class="remind">
+            请选择你的身份：
+        </p>
+        <a href="./首相_前情提要.html" class="choose" id="choose1">首相</a>
+        <a href="./绑匪_前情提要.html" class="choose" id="choose2">绑匪</a>
+        <a href="./媒体人_前情提要.html" class="choose" id="choose3">媒体人</a>
+        <a href="./民众_前情提要.html" class="choose" id="choose4">民众</a>
+    </div>
+
+</body>
+</html>

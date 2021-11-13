@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黑镜重开模拟器</title>
+    <style>
+        body{
+        background-color:#232831 ;
+    }
+    #premise {
+        text-align: left;
+        font-size:20px;/*设置字体大小*/
+        margin: auto;
+        color: white;
+        transform: translateY(15vw);
+    }/*前情提要格式改变*/
+    
+    .story {
+        text-align: left;
+        border: solid white;   /*设置边框样式跟颜色*/
+        border-width: 2px; /*设置边框宽度*/
+        background:#32363d;  /*设置背景色*/
+        font-size:15px;/*设置字体大小*/
+        border-radius: 18px;
+        width: 300px;
+        height: 160px;
+        padding: 8px;
+        margin: auto;
+        color: white;
+        transform: translateY(25vw);
+
+    }/*故事格式改变*/
+    .remind {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        justify-content: center; 
+        transform: translateY(40vw);
+    }/*提示格式改变*/
+    
+
+    .choose {
+        text-align: center;
+        border: solid white;   /*设置边框样式跟颜色*/
+        border-width: 2px; /*设置边框宽度*/
+        background:#32363d;  /*设置背景色*/
+        border-radius: 20px;
+        margin: auto;
+    }/*选择格式改变*/
+    
+    #choose1{
+        color:white;
+        display: flex;
+        justify-content: center; 
+        font-size: 20px;
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        transform: translateY(40vw);
+    }/*选择1格式改变*/
+    
+    #choose2{
+        color:white;
+        display: flex;
+        justify-content: center; 
+        font-size: 20px;
+        width: 180px;
+        height: 40px;
+        line-height: 40px;
+        transform: translateY(38vw);
+    }/*选择2格式改变*/
+
+    .main a{ 
+    color: white;
+    }/*超链接文字颜色改变*/
+    .main a:hover{ 
+    color:#090
+    }
+    .main a:link,a:visited{
+    text-decoration:none; 
+    } /*超链接无下划线*/
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="premise">
+            你选择了：<br>
+            保持为人的良知，放弃心中的邪念
+        </div>
+        
+        <div class="story">
+            你每日和野狗抢食，<br><br>
+            和流浪汉争抢睡觉的“领地”,<br><br>
+            痛苦却也并没有为你带来新的灵感,<br><br>
+            充满傲气的你最终寥落至死......
+        </div>
+
+        <div id="choose">
+            <p class="remind">
+                请做出你的选择:
+            </p>
+            <a href="./绑匪_选择二 .html" class="choose" id="choose1">返回上一个选择</a>
+            <br>
+            <a href="./选择身份.html" class="choose" id="choose2">重新选择你的身份</a>              
+        </div>
+    </div>
+</body>
+</html>

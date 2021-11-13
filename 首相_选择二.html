@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黑镜重开模拟器</title>
+    <style>
+        body{
+        background-color:#232831 ;
+    }
+    #premise {
+        text-align: left;
+        font-size:20px;/*设置字体大小*/
+        margin: auto;
+        color: white;
+        transform: translateY(15vw);
+    }/*前情提要格式改变*/
+    
+    .story {
+        text-align: left;
+        border: solid white;   /*设置边框样式跟颜色*/
+        border-width: 2px; /*设置边框宽度*/
+        background:#32363d;  /*设置背景色*/
+        font-size:15px;/*设置字体大小*/
+        border-radius: 18px;
+        width: 300px;
+        height: 275px;
+        padding: 8px;
+        margin: auto;
+        color: white;
+        transform: translateY(25vw);
+
+    }/*故事格式改变*/
+    .remind {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        justify-content: center; 
+        transform: translateY(35vw);
+    }/*提示格式改变*/
+    
+
+    .choose {
+        text-align: center;
+        border: solid white;   /*设置边框样式跟颜色*/
+        border-width: 2px; /*设置边框宽度*/
+        background:#32363d;  /*设置背景色*/
+        border-radius: 20px;
+        margin: auto;
+    }/*选择格式改变*/
+    
+    #choose1{
+        color:white;
+        display: flex;
+        justify-content: center; 
+        font-size: 15px;
+        width: 280px;
+        height: 40px;
+        line-height: 40px;
+        transform: translateY(35vw);
+    }/*选择1格式改变*/
+    
+    #choose2{
+        color:white;
+        display: flex;
+        justify-content: center; 
+        font-size: 15px;
+        width: 220px;
+        height: 40px;
+        line-height: 40px;
+        transform: translateY(32vw);
+    }/*选择2格式改变*/
+
+    .main a{ 
+    color: white;
+    }/*超链接文字颜色改变*/
+    .main a:hover{ 
+    color:#090
+    }
+    .main a:link,a:visited{
+    text-decoration:none; 
+    } /*超链接无下划线*/
+    </style>
+</head>
+<div class="main">
+    <div id="premise">
+        你选择了：<br>
+        拒绝向劫匪妥协
+    </div>
+    
+    <div class="story">
+        你正在犹豫不决，拒绝的话在你自己Twitter的界面输入了又删除。<br><br>
+        就在此时，绑匪的YouTube账号又更新了一则视频：<br><br>
+        公主被绑在椅子上，旁边正是拿着刀的绑匪。他诡异地笑着，逐渐把刀逼近公主<br><br>
+        屏幕上出现一行字：“如果你不照做，我将会现场直播杀掉她。”<br><br>
+        看着自己输入的拒绝的文字……
+    </div>
+
+    <div id="choose">
+        <p class="remind">
+            请做出你的选择:
+        </p>
+        <a href="./首相_选择二（一）结局.html" class="choose" id="choose1">你动摇了，决定放下尊严向绑匪妥协</a>
+        <br>
+        <a href="首相_选择二（二）结局.html" class="choose" id="choose2">发布拒绝的Twitter，拒绝妥协</a>              
+    </div>
+</div>
+</html>
