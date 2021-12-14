@@ -33,35 +33,36 @@
     text-decoration:none; 
     } /*超链接无下划线*/
     .remind {
-        font-size: 25px;
+        font-size: 22px;
         color: white;
         display: flex;
         justify-content: left; 
         transform: translateY(15vw);
+        width: 100%;
     }
     #choose1{
         color:white;
         display: flex;
         justify-content: center; 
-        font-size: 25px;
+        font-size: 20px;
     }
     #choose2{
         color:white;
         display: flex;
         justify-content: center; 
-        font-size: 25px;
+        font-size: 20px;
     }
     #choose3{
         color:white;
         display: flex;
         justify-content: center; 
-        font-size: 25px;
+        font-size: 20px;
     }
     #choose4{
         color:white;
         display: flex;
         justify-content: center; 
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #choose1{
@@ -78,15 +79,17 @@
         }    
     
     #language_change{
-            transform: translateY(3vw);
+            transform: translateY(6vw);
             text-align:center;
             border: solid white;   /*设置边框样式跟颜色*/
             border-width: 2px; /*设置边框宽度*/
             background:#32363d;  /*设置背景色*/
             border-radius: 20px;
             margin: auto;
-            width: 90px;
+            width: 120px;
             float:right;
+            font-size: 13px;
+            height: 20px;
         }
     .choose_main a{ 
             color: white;
@@ -96,21 +99,21 @@
         }
     .choose_main a:link,a:visited{
             text-decoration:none; 
-        }               
+        }            
     </style>
 </head>
 <body>
     <div class="choose_main" id=language_change>
-        <a href="选择身份_EN.html" id="language">切换语言</a>
+        <a href="选择身份.html" id="language">Language Change</a>
     </div>
     <div class="main">
         <p class="remind">
-            请选择你的身份：
+            Please choose your identity：
         </p>
-        <a href="./首相_前情提要.html" class="choose" id="choose1">首相</a>
-        <a href="./绑匪_前情提要.html" class="choose" id="choose2">绑匪</a>
-        <a href="./媒体人_前情提要.html" class="choose" id="choose3">媒体人</a>
-        <a href="./民众_前情提要.html" class="choose" id="choose4">民众</a>
+        <a href="./首相_前情提要_EN.html" class="choose" id="choose1">Prime Minister</a>
+        <a href="./绑匪_前情提要_EN.html" class="choose" id="choose2">Kidnapper</a>
+        <a href="./媒体人_前情提要_EN.html" class="choose" id="choose3">Media worker</a>
+        <a href="./民众_前情提要_EN.html" class="choose" id="choose4">The Masses</a>
     </div>
 
 </body>

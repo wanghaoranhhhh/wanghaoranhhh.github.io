@@ -5,22 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>黑镜重开模拟器</title>
-    <style> 
-    body{
+    <style>
+        body{
         background-color:#232831 ;
     }
     #premise {
-        text-align: center;
-        border: solid white;   /*设置边框样式跟颜色*/
-        border-width: 2px; /*设置边框宽度*/
-        background:#32363d;  /*设置背景色*/
-        font-size:25px;/*设置字体大小*/
-        border-radius: 20px;
-        width: 150px;
-        height: 50px;
+        text-align: left;
+        font-size:20px;/*设置字体大小*/
         margin: auto;
         color: white;
-        line-height: 50px;
         transform: translateY(15vw);
     }/*前情提要格式改变*/
     
@@ -31,8 +24,8 @@
         background:#32363d;  /*设置背景色*/
         font-size:15px;/*设置字体大小*/
         border-radius: 18px;
-        width: 300px;
-        height: 280px;
+        width: 320px;
+        height: 320px;
         padding: 8px;
         margin: auto;
         color: white;
@@ -43,8 +36,8 @@
         font-size: 20px;
         color: white;
         display: flex;
-        justify-content: center; 
-        transform: translateY(30vw);
+        justify-content: left; 
+        transform: translateY(35vw);
     }/*提示格式改变*/
     
 
@@ -61,23 +54,22 @@
         color:white;
         display: flex;
         justify-content: center; 
-        font-size: 20px;
-        width: 280px;
-        height: 40px;
-        line-height: 20px;
-        transform: translateY(28vw);
-        padding: 8px;
+        font-size: 15px;
+        width: 250px;
+        height: 50px;
+        line-height: 25px;
+        transform: translateY(35vw);
     }/*选择1格式改变*/
     
     #choose2{
         color:white;
         display: flex;
         justify-content: center; 
-        font-size: 20px;
-        width: 270px;
+        font-size: 15px;
+        width: 310px;
         height: 50px;
-        line-height: 50px;
-        transform: translateY(25vw);
+        line-height: 25px;
+        transform: translateY(32vw);
     }/*选择2格式改变*/
 
     .main a{ 
@@ -97,7 +89,7 @@
             background:#32363d;  /*设置背景色*/
             border-radius: 20px;
             margin: auto;
-            width: 80px;
+            width: 120px;
             float:right;
             font-size: 13px;
             height: 20px;
@@ -115,31 +107,29 @@
 </head>
 <body>
     <div class="choose_main" id=language_change>
-        <a href="民众_前情提要_EN.html" id="language">切换语言</a>
+        <a href="绑匪_选择二 .html" id="language">Language Change</a>
     </div>
-    <div class="main">
-        <div id="premise">
-            前情提要
-        </div>
-        
-        <div class="story">
-            你是一个正在值夜班的医生。<br><br>
-            正忙里偷闲地在YouTube刷着视频，突然跳出来的一则视频吸引了你的注意：<br><br>
-            英国公主Susannah被绑架，绑匪的要求居然是首相必须在当天下午四点和一头猪做爱，并现场直播给全世界，否则公主就将被杀害。<br><br>
-            紧接着，你又看到了一段录像，内容显示公主的手指被绑匪割去，<br><br>
-            你的手指在转发评论键上暂停......
-        </div>
+<div class="main">
+    <div id="premise">
+        You have chosen:<br>
+        Stick to the bottom line of morality
+    </div>
     
-        <div id="choose">
-            <p class="remind">
-                请做出你的选择:
-            </p>
-            <a href="./民众_选择一.html" class="choose" id="choose1">犹豫了一下，对视频真实性表示怀疑，不选择分享</a>
-            <br>
-            <a href="./民众_选择二.html" class="choose" id="choose2">直接转发，表达了自己的震惊</a>              
-        </div>
-    
+    <div class="story">
+        There is a marketing account on social media that compares your past work with A and made some mockery. The comment and forwarding area is also full of sarcasm for your work. <br>
+        You are angry at the blind follow-up of these people who don't know how to appreciate, and you want to pierce the hypocritical faces behind this screen. <br>
+        After being swept out of the house for rent in arrears, and wandering on the street, you are desperate for this entertaining Internet age,<br>
+        I raised my eyes and saw the huge LED screen outside the mall again, and a bold idea emerged in my heart...<br>
     </div>
 
+    <div id="choose">
+        <p class="remind">
+            Please make your choice:
+        </p>
+        <a href="./绑匪_选择二（一）结局 _EN.html" class="choose" id="choose1">Conduct an unprecedented live kidnapping event</a>
+        <br>
+        <a href="./绑匪_选择二（二）结局  _EN.html.html" class="choose" id="choose2">Maintain a human conscience and give up the evil thoughts in your heart</a>              
+    </div>
+</div>
 </body>
 </html>

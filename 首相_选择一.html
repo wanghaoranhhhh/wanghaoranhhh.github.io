@@ -81,9 +81,32 @@
     .main a:link,a:visited{
     text-decoration:none; 
     } /*超链接无下划线*/
+    #language_change{
+            transform: translateY(3vw);
+            text-align:center;
+            border: solid white;   /*设置边框样式跟颜色*/
+            border-width: 2px; /*设置边框宽度*/
+            background:#32363d;  /*设置背景色*/
+            border-radius: 20px;
+            margin: auto;
+            width: 90px;
+            float:right;
+        }
+    .choose_main a{ 
+            color: white;
+        }
+    .choose_main a:hover{ 
+            color:#090
+        }
+    .choose_main a:link,a:visited{
+            text-decoration:none; 
+        }    
     </style>
 </head>
 <body>
+    <div class="choose_main" id=language_change>
+        <a href="首相_选择一_EN.html" id="language">切换语言</a>
+    </div>
     <div class="main">
         <div id="premise">
             你选择了：<br>

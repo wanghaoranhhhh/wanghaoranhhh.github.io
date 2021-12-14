@@ -10,20 +10,13 @@
             background-color:#232831 ;
         }
         #premise {
-            text-align: center;
-            border: solid white;   /*设置边框样式跟颜色*/
-            border-width: 2px; /*设置边框宽度*/
-            background:#32363d;  /*设置背景色*/
-            font-size:25px;/*设置字体大小*/
-            border-radius: 20px;
-            width: 150px;
-            height: 50px;
-            margin: auto;
-            color: white;
-            line-height: 50px;
-            transform: translateY(15vw);
-        }/*前情提要格式改变*/
-        
+        text-align: left;
+        font-size:20px;/*设置字体大小*/
+        margin: auto;
+        color: white;
+        transform: translateY(15vw);
+    }/*前情提要格式改变*/
+
         .story {
             text-align: left;
             border: solid white;   /*设置边框样式跟颜色*/
@@ -32,32 +25,14 @@
             font-size:15px;/*设置字体大小*/
             border-radius: 18px;
             width: 300px;
-            height: 310px;
+            height: 250px;
             padding: 8px;
             margin: auto;
             color: white;
-            transform: translateY(25vw);
-    
+            transform: translateY(20vw);
         }/*故事格式改变*/
-        .remind {
-            font-size: 20px;
-            color: white;
-            display: flex;
-            justify-content: center; 
-            transform: translateY(30vw);
-        }/*提示格式改变*/
         
-    
-        .choose {
-            text-align: center;
-            border: solid white;   /*设置边框样式跟颜色*/
-            border-width: 2px; /*设置边框宽度*/
-            background:#32363d;  /*设置背景色*/
-            border-radius: 20px;
-            margin: auto;
-        }/*选择格式改变*/
-        
-        #choose1{
+        #choose0{
             color:white;
             display: flex;
             justify-content: center; 
@@ -66,18 +41,46 @@
             height: 40px;
             line-height: 40px;
             transform: translateY(28vw);
-        }/*选择1格式改变*/
+        }/*选择0格式改变*/
         
-        #choose2{
-            color:white;
-            display: flex;
-            justify-content: center; 
+        .remind {
             font-size: 20px;
-            width: 280px;
-            height: 40px;
-            line-height: 40px;
-            transform: translateY(25vw);
-        }/*选择2格式改变*/
+            color: white;
+            display: flex;
+            justify-content: left; 
+            transform: translateY(38vw);
+        }/*提示格式改变*/
+        
+        .choose {
+            text-align: center;
+            border: solid white;   /*设置边框样式跟颜色*/
+            border-width: 2px; /*设置边框宽度*/
+            background:#32363d;  /*设置背景色*/
+            border-radius: 20px;
+            margin: auto;
+        }/*选择格式改变*/
+
+        #choose1{
+        color:white;
+        display: flex;
+        justify-content: center; 
+        font-size: 18px;
+        width: 300px;
+        height: 40px;
+        line-height: 40px;
+        transform: translateY(35vw);
+    }/*选择1格式改变*/
+    
+    #choose2{
+        color:white;
+        display: flex;
+        justify-content: center; 
+        font-size: 18px;
+        width: 230px;
+        height: 40px;
+        line-height: 40px;
+        transform: translateY(34vw);
+    }/*选择2格式改变*/
     
         .main a{ 
         color: white;
@@ -96,7 +99,7 @@
             background:#32363d;  /*设置背景色*/
             border-radius: 20px;
             margin: auto;
-            width: 80px;
+            width: 120px;
             float:right;
             font-size: 13px;
             height: 20px;
@@ -114,30 +117,29 @@
 </head>
 <body>
     <div class="choose_main" id=language_change>
-        <a href="绑匪_前情提要 _EN.html" id="language">切换语言</a>
+        <a href="绑匪_选择一（第二页）.html" id="language">Language Change</a>
     </div>
     <div class="main">
         <div id="premise">
-                前情提要
+            You have chosen:<br>
+            Imitating peers and performing unethical performance art
+        <div class="story">
+            Under the influence of the remaining human nature and ironic psychology, you cut off your finger, but you claim to be a princess. <br>
+            This greatly inflamed the mood of the people, and the president was forced to copulate with the sow. <br>
+            You look at the group portraits in this absurd Internet world, and you choose to end your life in that room without any new products of the 21st century. <br>
+            </div>
         </div>
             
-        <div class="story">
-                你是一个艺术家，对伟大艺术的创作一直是你毕生的追求。<br><br>
-                你的心里装着天上的星星，却没人理解你的满腔热忱。作品无人欣赏，你的生活越来越落魄，有时候连一顿饱饭都吃不上。<br><br>
-                独自徘徊在城市的高楼大厦间，你觉得自己和世俗格格不入。<br><br>
-                大厦外的屏幕上闪着刺眼的光，你定睛一看，竟是自己曾经的死对头A，靠着奇葩的行为艺术获得了大奖。<br><br>
-                你愤愤不已，决定......
-        </div>
-        
         <div id="choose">
+            <a href="./绑匪_选择一（第一页） _EN.html" class="choose" id="choose0">The First Page</a>
             <p class="remind">
-                    请做出你的选择:
-            </p>
-            <a href="./绑匪_选择一（第一页）.html" class="choose" id="choose1">仿照同行，进行有违伦理的行为艺术</a>
+                Please make your choice:
+            </p> 
+            <a href="./绑匪_前情提要 _EN.html" class="choose" id="choose1">Return to the previous selection</a>
             <br>
-            <a href="./绑匪_选择二 .html" class="choose" id="choose2">坚守道德底线，拒绝同流合污</a>              
+            <a href="./选择身份_EN.html" class="choose" id="choose2">Re-select your identity</a>         
             </div> 
-
+            
         </div>
 </body>
 </html>
